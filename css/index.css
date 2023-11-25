@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap");
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+header {
+  width: 100%;
+  -moz-column-gap: 40%;
+       column-gap: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+header ul {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  margin-top: auto;
+  margin-bottom: auto;
+  list-style: none;
+}
+
+#acceille_article {
+  text-align: center;
+}
+#acceille_article h1 {
+  color: rgba(37, 69, 114, 0.856);
+}
+#acceille_article p {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#informations {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#Aventurexplore {
+  text-align: center;
+  top: -400px;
+  position: relative;
+}
+
+hr {
+  width: 50%;
+  margin-top: 50px;
+}
+
+footer h3 {
+  text-align: center;
+}
+footer nav {
+  display: flex;
+}
+footer nav i {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#reseaux_icon {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo_image {
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#image_acceuille {
+  text-align: center;
+  background-image: url("/images/539260CC-CA54-46CA-8182-535E957F4967_1_105_c.jpeg");
+  background-position: center;
+  background-size: cover;
+  width: 90%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}/*# sourceMappingURL=index.css.map */

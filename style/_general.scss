@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+body{
+    font-family: 'Quicksand', sans-serif; 
+    background-color: white;
+}
+header{
+    width: 100%;
+    column-gap: 40%;
+    display: flex;
+    justify-content: space-around;
+    ul{
+        display: flex;
+        width: 30%;
+        justify-content:space-around;
+        margin-top: auto;
+        margin-bottom: auto;
+        list-style: none;
+    }
+}
+#acceille_article{
+    text-align: center;
+    h1{
+        color: rgba(37, 69, 114, 0.856);
+    }
+    p{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+#informations{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+// -------------animation js---------------
+#Aventurexplore{
+text-align: center;
+top: -400px;
+position: relative;
+
+}
+hr{
+    width: 50%;
+    margin-top: 50px;
+}
+footer{
+    h3{
+        text-align: center;
+    }
+    nav{
+        display: flex;
+       
+        i{
+           
+           margin-top: auto;
+           margin-bottom: auto;
+        }
+    }
+}
+#reseaux_icon{
+display: flex;
+justify-content: space-evenly;
+}
