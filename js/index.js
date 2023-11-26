@@ -8,11 +8,10 @@ function anim(){
         i++;
       
     }
-   
+
     else{
     i=0;
     return
-    
     }
     setTimeout(anim,100);
    

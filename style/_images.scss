@@ -2,6 +2,7 @@
     width: 150px;
     height: 150px;
     object-fit: cover;
+    border: 1px solid red;
 }
 #image_acceuille{
     text-align: center;
@@ -12,5 +13,13 @@
     height: 500px;
     margin-left: auto;
     margin-right: auto;
-    
+}
+#icon_menu{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 1px solid red;
+    display: none;
 }

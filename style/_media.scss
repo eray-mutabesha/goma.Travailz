@@ -1,0 +1,22 @@
+@media (max-width:768px){
+    body{
+        
+        header{
+            ul{
+                display:none;
+                opacity: 0;
+                border: 1px solid red;
+                
+            }
+            #icon_menu{
+                display: block;
+            }
+        }
+    }
+}
+@media (max-width:425px){
+    #reseaux_icon{
+        display: grid;
+        grid-template-columns: auto auto;
+        }
+}

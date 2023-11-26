@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
 body{
-    font-family: 'Quicksand', sans-serif; 
+    font-family:'Quicksand', sans-serif; 
     background-color: white;
+    border:1px solid red;
+    margin:0;
 }
 header{
+    border: 1px solid red;
     width: 100%;
     column-gap: 40%;
     display: flex;
@@ -29,9 +32,14 @@ header{
     }
 }
 #informations{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
+    border: 1px solid red;
+    display:flex;
+    justify-content:space-around;
+    
+    align-content: center;
+    div{
+   text-align:center;
+    }
 }
 // -------------animation js---------------
 #Aventurexplore{

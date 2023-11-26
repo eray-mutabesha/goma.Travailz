@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap");
 body {
   font-family: "Quicksand", sans-serif;
+  background-color: white;
+  border: 1px solid red;
+  margin: 0;
 }
 
 header {
+  border: 1px solid red;
   width: 100%;
   -moz-column-gap: 40%;
        column-gap: 40%;
@@ -32,9 +36,13 @@ header ul {
 }
 
 #informations {
+  border: 1px solid red;
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  align-content: center;
+}
+#informations div {
+  text-align: center;
 }
 
 #Aventurexplore {
@@ -69,6 +77,7 @@ footer nav i {
   height: 150px;
   -o-object-fit: cover;
      object-fit: cover;
+  border: 1px solid red;
 }
 
 #image_acceuille {
@@ -80,4 +89,32 @@ footer nav i {
   height: 500px;
   margin-left: auto;
   margin-right: auto;
+}
+
+#icon_menu {
+  width: 30px;
+  height: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: auto;
+  margin-bottom: auto;
+  border: 1px solid red;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  body header ul {
+    display: none;
+    opacity: 0;
+    border: 1px solid red;
+  }
+  body header #icon_menu {
+    display: block;
+  }
+}
+@media (max-width: 425px) {
+  #reseaux_icon {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
 }/*# sourceMappingURL=index.css.map */
