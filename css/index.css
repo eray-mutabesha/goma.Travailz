@@ -2,12 +2,17 @@
 body {
   font-family: "Quicksand", sans-serif;
   background-color: white;
-  border: 1px solid red;
   margin: 0;
+}
+body p, body li, body h4, body h3 {
+  color: rgb(70, 104, 178);
+}
+body hr {
+  background: rgb(70, 104, 178);
+  color: rgb(70, 104, 178);
 }
 
 header {
-  border: 1px solid red;
   width: 100%;
   -moz-column-gap: 40%;
        column-gap: 40%;
@@ -36,7 +41,6 @@ header ul {
 }
 
 #informations {
-  border: 1px solid red;
   display: flex;
   justify-content: space-around;
   align-content: center;
@@ -77,7 +81,6 @@ footer nav i {
   height: 150px;
   -o-object-fit: cover;
      object-fit: cover;
-  border: 1px solid red;
 }
 
 #image_acceuille {
@@ -98,7 +101,6 @@ footer nav i {
      object-fit: cover;
   margin-top: auto;
   margin-bottom: auto;
-  border: 1px solid red;
   display: none;
 }
 

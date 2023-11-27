@@ -2,11 +2,19 @@
 body{
     font-family:'Quicksand', sans-serif; 
     background-color: white;
-    border:1px solid red;
     margin:0;
+    p,li,h4,h3{
+        color: rgb(70, 104, 178);
+    }
+    hr{
+       background:rgb(70, 104, 178) ; 
+       color: rgb(70, 104, 178);
+       
+    }
+   
+    
 }
 header{
-    border: 1px solid red;
     width: 100%;
     column-gap: 40%;
     display: flex;
@@ -32,7 +40,6 @@ header{
     }
 }
 #informations{
-    border: 1px solid red;
     display:flex;
     justify-content:space-around;
     
@@ -46,7 +53,7 @@ header{
 text-align: center;
 top: -400px;
 position: relative;
-
+ 
 }
 hr{
     width: 50%;
