@@ -119,4 +119,37 @@ footer nav i {
     display: grid;
     grid-template-columns: auto auto;
   }
+}
+.services_div {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.618);
+  border-radius: 30px;
+  background-color: rgb(239, 241, 241);
+}
+.services_div div {
+  margin: 10px;
+}
+.services_div div h3 {
+  text-align: center;
+}
+.services_div div button {
+  background-color: rgb(70, 104, 178);
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  justify-content: center;
+}
+.services_div img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=index.css.map */
