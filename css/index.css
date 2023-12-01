@@ -11,6 +11,13 @@ body hr {
   background: rgb(70, 104, 178);
   color: rgb(70, 104, 178);
 }
+body a {
+  text-decoration: none;
+  color: rgb(70, 104, 178);
+}
+body a:hover {
+  border-bottom: 2px solid rgb(70, 104, 178);
+}
 
 header {
   width: 100%;
