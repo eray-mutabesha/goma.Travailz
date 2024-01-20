@@ -25,6 +25,8 @@ header {
        column-gap: 40%;
   display: flex;
   justify-content: space-around;
+  position: fixed;
+  top: 0%;
 }
 header ul {
   display: flex;
@@ -112,10 +114,10 @@ footer nav i {
 }
 
 @media (max-width: 768px) {
-  body header ul {
-    display: none;
-    opacity: 0;
-    border: 1px solid red;
+  body header .header_ul {
+     display: none;
+    opacity: 0; 
+   
   }
   body header #icon_menu {
     display: block;
@@ -173,3 +175,40 @@ h1 {
     text-align: center;
   }
 }/*# sourceMappingURL=index.css.map */
+/* codes of programme page */
+#menu_li{
+  background-color:whitesmoke;
+  position: absolute;
+  right: -400px;
+  top: 100px;
+}
+.menu_toggle{
+  background-color:whitesmoke;
+  position: absolute;
+  right: 2%;
+  top: 100px;
+}
+#menu_li ul{
+  display: grid;
+  gap: 20px;
+  margin: 10px;
+
+}
+/* news section */
+.image_publication{
+  border: 1px solid rgba(70, 104, 178, 0.199);
+  width: 60%;
+  
+  box-shadow: 0px 0px 15px 0px rgb(70, 104, 178);
+  margin: 40px auto;
+}
+.image_publication img{
+  width:100%;
+  
+}
+#news_section{
+  margin-top: 15%;
+}
+#news_section p{
+  margin: 10px;
+}

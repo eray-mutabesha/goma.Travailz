@@ -17,3 +17,9 @@ function anim(){
    
 }
 anim()
+const menuBtn=document.getElementById("icon_menu");
+const menu=document.getElementsByClassName("menu_li");
+
+menuBtn.addEventListener('click',()=>{
+    menu.ClassList.toggle("menu_toggle");
+})
