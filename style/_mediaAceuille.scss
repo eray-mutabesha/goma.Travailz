@@ -2,13 +2,11 @@
     body{
         
         header{
-            ul{
-                // display:none;
-                opacity: 0;
-                border: 1px solid red;
+            ul{    
+                display: none;
             }
             #icon_menu{
-                display: block;
+                display:block;
             }
         }
     }

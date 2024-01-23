@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
 body{
+    
+    border: 1px solid red;
     font-family:'Quicksand', sans-serif; 
     background-color:white;
     margin:0;
+    padding: 0;
+
     p,li,h4,h3{
         color: rgb(70, 104, 178);
     }
@@ -79,4 +83,19 @@ footer{
 #reseaux_icon{
 display: flex;
 justify-content: space-evenly;
+}
+.menu_principale{
+    position: absolute;
+    right: -1000px;
+    top: 100px;
+    width: max-content;
+    background-color: rgb(33, 11, 95);
+    
+    ul{
+        display: grid;
+    }
+}
+.menu_li {
+    transition: 1s;
+   right: 0%;
 }

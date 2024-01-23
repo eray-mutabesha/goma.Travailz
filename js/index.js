@@ -17,9 +17,9 @@ function anim(){
    
 }
 anim()
-const menuBtn=document.getElementById("icon_menu");
-const menu=document.getElementsByClassName("menu_li");
+const imgmenu=document.getElementById("icon_menu")
+const menup=document.querySelector(".menu_principale")
 
-menuBtn.addEventListener('click',()=>{
-    menu.ClassList.toggle("menu_toggle");
+imgmenu.addEventListener("click",()=>{
+    menup.classList.toggle("menu_li")
 })
