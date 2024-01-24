@@ -87,19 +87,24 @@ footer nav i {
 
 .menu_principale {
   position: absolute;
-  right: -1000px;
+  left: -1000px;
   top: 100px;
-  width: -moz-max-content;
-  width: max-content;
-  background-color: rgb(33, 11, 95);
+  width: 95%;
+  background-color: rgba(37, 69, 114, 0.856);
 }
 .menu_principale ul {
   display: grid;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu_principale ul li {
+  color: white;
+  text-align: center;
 }
 
 .menu_li {
   transition: 1s;
-  right: 0%;
+  left: 2.5%;
 }
 
 .logo_image {
