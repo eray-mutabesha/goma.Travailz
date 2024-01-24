@@ -27,6 +27,7 @@ header{
     column-gap: 40%;
     display: flex;
     justify-content: space-around;
+    position: fixed;
     ul{
         display: flex;
         width: 30%;
@@ -35,6 +36,9 @@ header{
         margin-bottom: auto;
         list-style: none;
     }
+}
+#acceille_section{
+    margin-top: 160px;
 }
 #acceille_article{
     text-align: center;

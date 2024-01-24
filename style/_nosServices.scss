@@ -1,3 +1,6 @@
+#nosService_main{
+    margin-top: 160px;
+}
 h1{
     color: rgb(70, 104, 178);
     text-align: center;
@@ -5,7 +8,6 @@ h1{
 .services_div{
     display: flex;
     justify-content: space-around;
-    // padding: 10px;
     margin-top: 60px;
     width: 90%;
     margin-left: auto;

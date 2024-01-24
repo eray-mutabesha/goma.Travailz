@@ -27,6 +27,7 @@ header {
        column-gap: 40%;
   display: flex;
   justify-content: space-around;
+  position: fixed;
 }
 header ul {
   display: flex;
@@ -35,6 +36,10 @@ header ul {
   margin-top: auto;
   margin-bottom: auto;
   list-style: none;
+}
+
+#acceille_section {
+  margin-top: 160px;
 }
 
 #acceille_article {
@@ -149,6 +154,10 @@ footer nav i {
     grid-template-columns: auto auto;
   }
 }
+#nosService_main {
+  margin-top: 160px;
+}
+
 h1 {
   color: rgb(70, 104, 178);
   text-align: center;
@@ -207,7 +216,7 @@ h1 {
 }
 
 #news_section {
-  margin-top: 15%;
+  margin-top: 160px;
 }
 
 #news_section p {
