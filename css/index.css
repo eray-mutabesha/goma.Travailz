@@ -204,6 +204,17 @@ h1 {
     text-align: center;
   }
 }
+#apropos_section {
+  margin-top: 160px;
+  text-align: justify;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#apropos_section p {
+  margin: 15px;
+}
+
 .image_publication {
   border: 1px solid rgba(70, 104, 178, 0.199);
   width: 60%;
