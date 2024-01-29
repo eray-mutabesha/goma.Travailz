@@ -1,10 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap");
 body {
-  border: 1px solid red;
   font-family: "Quicksand", sans-serif;
-  background-color: white;
-  margin: 0;
-  padding: 0;
+  background-color: rgba(229, 228, 238, 0.473);
 }
 body p, body li, body h4, body h3 {
   color: rgb(70, 104, 178);
@@ -12,13 +9,6 @@ body p, body li, body h4, body h3 {
 body hr {
   background: rgb(70, 104, 178);
   color: rgb(70, 104, 178);
-}
-body a {
-  text-decoration: none;
-  color: rgb(70, 104, 178);
-}
-body a:hover {
-  border-bottom: 2px solid rgb(70, 104, 178);
 }
 
 header {
@@ -28,6 +18,14 @@ header {
   display: flex;
   justify-content: space-around;
   position: fixed;
+  top: 0%;
+}
+header .header_ul a {
+  text-decoration: none;
+  color: rgb(70, 104, 178);
+}
+header .header_ul a:hover {
+  border-bottom: 2px solid rgb(70, 104, 178);
 }
 header ul {
   display: flex;
@@ -40,6 +38,14 @@ header ul {
 
 #acceille_section {
   margin-top: 160px;
+}
+
+#acceille_section_domintervention {
+  margin-top: 160px;
+  text-align: justify;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #acceille_article {
@@ -98,6 +104,7 @@ footer nav i {
   background-color: rgba(37, 69, 114, 0.856);
 }
 .menu_principale ul {
+  border-bottom: 1px solid white;
   display: grid;
   margin-left: auto;
   margin-right: auto;
@@ -105,6 +112,10 @@ footer nav i {
 .menu_principale ul li {
   color: white;
   text-align: center;
+}
+.menu_principale ul li a {
+  color: white;
+  text-decoration: none;
 }
 
 .menu_li {
@@ -207,17 +218,14 @@ h1 {
 #apropos_section {
   margin-top: 160px;
   text-align: justify;
-  width: 90%;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
-}
-#apropos_section p {
-  margin: 15px;
 }
 
 .image_publication {
   border: 1px solid rgba(70, 104, 178, 0.199);
-  width: 60%;
+  width: 80%;
   box-shadow: 0px 0px 15px 0px rgb(70, 104, 178);
   margin: 40px auto;
 }

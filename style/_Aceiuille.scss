@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
 body{
-    
-    border: 1px solid red;
     font-family:'Quicksand', sans-serif; 
-    background-color:white;
-    margin:0;
-    padding: 0;
+    background-color:rgba(229, 228, 238, 0.473);
+    // margin:0;
+    // padding: 0;
 
     p,li,h4,h3{
         color: rgb(70, 104, 178);
@@ -14,13 +12,7 @@ body{
        background:rgb(70, 104, 178) ; 
        color: rgb(70, 104, 178);
     }
-    a{
-        text-decoration: none;
-        color: rgb(70, 104, 178);
-        &:hover{
-            border-bottom: 2px solid rgb(70, 104, 178);
-        }
-    }
+    
 }
 header{
     width: 100%;
@@ -28,6 +20,15 @@ header{
     display: flex;
     justify-content: space-around;
     position: fixed;
+    top: 0%;
+    
+    .header_ul a{
+        text-decoration: none;
+        color: rgb(70, 104, 178);
+        &:hover{
+            border-bottom: 2px solid rgb(70, 104, 178);
+        }
+    }
     ul{
         display: flex;
         width: 30%;
@@ -35,11 +36,20 @@ header{
         margin-top: auto;
         margin-bottom: auto;
         list-style: none;
+      
     }
 }
 
+
 #acceille_section{
     margin-top: 160px;
+}
+#acceille_section_domintervention{
+    margin-top: 160px;;
+    text-align: justify;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
 }
 #acceille_article{
     text-align: center;
@@ -96,13 +106,18 @@ justify-content: space-evenly;
     top: 100px;
     width: 95%;
     background-color:rgba(37, 69, 114, 0.856);
-    ul{
+    ul{ border-bottom: 1px solid white;
         display: grid;
         margin-left: auto;
         margin-right: auto;
+     
         li{
         color:white;
-        text-align: center;   
+        text-align: center; 
+        a{
+            color: white;
+            text-decoration: none; 
+        }
         }
     }
 }
