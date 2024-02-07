@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap");
 body {
   font-family: "Quicksand", sans-serif;
-  background-color: rgba(229, 228, 238, 0.473);
+  background-color: rgb(238, 237, 243);
 }
 body p, body li, body h4, body h3 {
   color: rgb(70, 104, 178);
@@ -10,8 +10,14 @@ body hr {
   background: rgb(70, 104, 178);
   color: rgb(70, 104, 178);
 }
+body a {
+  text-decoration: none;
+  color: rgb(70, 104, 178);
+}
 
 header {
+  background-color: rgb(238, 237, 243);
+  z-index: 1;
   width: 100%;
   -moz-column-gap: 40%;
        column-gap: 40%;
@@ -132,10 +138,10 @@ footer nav i {
 
 #image_acceuille {
   text-align: center;
-  background-image: url("/images/539260CC-CA54-46CA-8182-535E957F4967_1_105_c.jpeg");
+  background-image: url("/images/accueilEssais.webp");
   background-position: center;
   background-size: cover;
-  width: 90%;
+  width: 99%;
   height: 500px;
   margin-left: auto;
   margin-right: auto;
@@ -214,7 +220,7 @@ h1 {
     text-align: center;
   }
 }
-#apropos_section {
+#apropos_section, #nosService_main {
   margin-top: 160px;
   text-align: justify;
   width: 95%;

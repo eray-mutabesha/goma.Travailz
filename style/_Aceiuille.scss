@@ -1,25 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
 body{
     font-family:'Quicksand', sans-serif; 
-    background-color:rgba(229, 228, 238, 0.473);
-    // margin:0;
-    // padding: 0;
-
+    background-color:rgb(238, 237, 243);
     p,li,h4,h3{
+        
         color: rgb(70, 104, 178);
     }
     hr{
        background:rgb(70, 104, 178) ; 
        color: rgb(70, 104, 178);
+    } 
+    a{
+        text-decoration: none;
+        color: rgb(70, 104, 178);
     }
-    
 }
 header{
+    background-color:rgb(238, 237, 243);
+    z-index: 1;
     width: 100%;
     column-gap: 40%;
     display: flex;
     justify-content: space-around;
     position: fixed;
+    
     top: 0%;
     
     .header_ul a{
