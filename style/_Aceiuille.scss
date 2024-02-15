@@ -3,7 +3,6 @@ body{
     font-family:'Quicksand', sans-serif; 
     background-color:rgb(238, 237, 243);
     p,li,h4,h3{
-        
         color: rgb(70, 104, 178);
     }
     hr{
@@ -23,9 +22,7 @@ header{
     display: flex;
     justify-content: space-around;
     position: fixed;
-    
     top: 0%;
-    
     .header_ul a{
         text-decoration: none;
         color: rgb(70, 104, 178);
@@ -40,11 +37,8 @@ header{
         margin-top: auto;
         margin-bottom: auto;
         list-style: none;
-      
     }
 }
-
-
 #acceille_section{
     margin-top: 160px;
 }
@@ -75,7 +69,7 @@ header{
    text-align:center;
     }
 }
-// -------------animation js---------------
+// -------------animationJs---------------
 #Aventurexplore{
 text-align: center;
 top: -400px;
