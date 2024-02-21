@@ -104,9 +104,10 @@ footer nav i {
 
 .menu_principale {
   position: absolute;
-  left: -2000px;
+  left: -1000px;
   top: 100px;
-  width: 95%;
+  width: 90%;
+  height: 150px;
   background-color: rgba(37, 69, 114, 0.856);
 }
 .menu_principale ul {
@@ -114,6 +115,8 @@ footer nav i {
   display: grid;
   margin-left: auto;
   margin-right: auto;
+  width: 90%;
+  height: 150px;
 }
 .menu_principale ul li {
   color: white;
@@ -125,7 +128,7 @@ footer nav i {
 }
 
 .menu_li {
-  transition: 1s;
+  transition: 0.5s;
   left: 2.5%;
 }
 
