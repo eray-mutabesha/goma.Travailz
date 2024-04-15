@@ -2,6 +2,9 @@
 body{
     font-family:'Quicksand', sans-serif; 
     background-color:rgb(238, 237, 243);
+    padding: 0;
+    margin: 0;
+    
     p,li,h4,h3{
         color: rgb(70, 104, 178);
     }
@@ -16,14 +19,15 @@ body{
     
 }
 header{
-    background-color:rgb(238, 237, 243);
-    z-index: 1;
-    width: 100%;
-    column-gap: 40%;
-    display: flex;
+    
+    // background-color:rgb(238, 237, 243);
+    // z-index: 1;
+     width: 100%;
+     column-gap: 40%;
+     display: flex;
     justify-content: space-around;
-    position: fixed;
-    top: 0%;
+    // position: fixed;
+    // top: 0%;
     .header_ul a{
         text-decoration: none;
         color: rgb(70, 104, 178);
@@ -40,8 +44,12 @@ header{
         list-style: none;
     }
 }
+.all_page{
+    background-color:rgb(238, 237, 243);
+    z-index: 10;
+}
 #acceille_section{
-    margin-top: 160px;
+   
 }
 #acceille_section_domintervention{
     margin-top: 160px;;
@@ -52,7 +60,7 @@ header{
 }
 #acceille_article{
     text-align: center;
-    h1{
+    h1,h2{
         color: rgba(37, 69, 114, 0.856);
     }
     p{
@@ -80,7 +88,11 @@ hr{
     width: 50%;
     margin-top: 50px;
 }
+#apropos_section{
+    background-color:rgb(238, 237, 243);
+}
 footer{
+    background-color:rgb(238, 237, 243);
     h3{
         text-align: center;
     }

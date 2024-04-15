@@ -2,6 +2,8 @@
 body {
   font-family: "Quicksand", sans-serif;
   background-color: rgb(238, 237, 243);
+  padding: 0;
+  margin: 0;
 }
 body p, body li, body h4, body h3 {
   color: rgb(70, 104, 178);
@@ -16,15 +18,11 @@ body a {
 }
 
 header {
-  background-color: rgb(238, 237, 243);
-  z-index: 1;
   width: 100%;
   -moz-column-gap: 40%;
        column-gap: 40%;
   display: flex;
   justify-content: space-around;
-  position: fixed;
-  top: 0%;
 }
 header .header_ul a {
   text-decoration: none;
@@ -42,8 +40,9 @@ header ul {
   list-style: none;
 }
 
-#acceille_section {
-  margin-top: 160px;
+.all_page {
+  background-color: rgb(238, 237, 243);
+  z-index: 10;
 }
 
 #acceille_section_domintervention {
@@ -57,7 +56,7 @@ header ul {
 #acceille_article {
   text-align: center;
 }
-#acceille_article h1 {
+#acceille_article h1, #acceille_article h2 {
   color: rgba(37, 69, 114, 0.856);
 }
 #acceille_article p {
@@ -86,6 +85,13 @@ hr {
   margin-top: 50px;
 }
 
+#apropos_section {
+  background-color: rgb(238, 237, 243);
+}
+
+footer {
+  background-color: rgb(238, 237, 243);
+}
 footer h3 {
   text-align: center;
 }
@@ -140,14 +146,17 @@ footer nav i {
 }
 
 #image_acceuille {
+  z-index: -10;
+  position: fixed;
   text-align: center;
   background-image: url("/images/accueilEssais.webp");
   background-position: center;
   background-size: cover;
-  width: 99%;
+  width: 100%;
   height: 500px;
   margin-left: auto;
   margin-right: auto;
+  height: 700px;
 }
 
 #icon_menu {
